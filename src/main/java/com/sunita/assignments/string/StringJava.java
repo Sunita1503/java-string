@@ -42,14 +42,19 @@ public class StringJava {
 
 	public static void main(String[] args) {
 
-		StringJava objStringJava = new StringJava();
+		/*StringJava objStringJava = new StringJava();
 		objStringJava.concatString("Next", "Generation"); // concat strings
 
 		objStringJava.compareString();
 
 		objStringJava.substring();
 
-		objStringJava.changeCase();
+		objStringJava.changeCase();*/
+		
+		String s="Sachin";
+		s = s.concat("Tendulakr");
+		System.out.println("FullName ** " + s);
+		
 
 	}
 
