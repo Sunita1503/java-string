@@ -19,7 +19,7 @@ public class TestStingComparisonUsingCompareTo {
 		if (strVCompareValue == 0)
 			System.out.println("Strings " + str1 + " and  "+ str2 + "  are equal  by " + strVCompareValue);
 		else if (strVCompareValue > 0)
-			System.out.println("String : " + str1 + " grater than String :  "+ str2  + " by " + strVCompareValue );
+			System.out.println("String : " + str1 + " greater than String :  "+ str2  + " by " + strVCompareValue );
 		else
 			System.out.println("String : " + str1 + " is less String : "+ str2 + " by "  + strVCompareValue);
 		

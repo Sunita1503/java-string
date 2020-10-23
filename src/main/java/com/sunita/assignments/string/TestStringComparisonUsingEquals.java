@@ -17,6 +17,7 @@ public class TestStringComparisonUsingEquals {
 			System.out.println("Strings " + str1 + " and  "+ str2 + "  are not equal ");
 	}
 	
+	//using object reference
 	public static void doVerifyStringUsingEqualsandObjectReference(String str1,String str2){
 		
 		if(str1.equals(str2))

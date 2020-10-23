@@ -23,7 +23,7 @@ public static void doVerifyStringUsingEqualsIgnoreCase(String str1, String str2)
 	
 	public static void main(String[] args) {
 		
-		
+		//call method 
 		doVerifyStringUsingEqualsIgnoreCase(strName1, strName2);
 
 	}
