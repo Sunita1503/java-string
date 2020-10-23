@@ -39,8 +39,11 @@ public class TestStringComparisonUsingEquals {
 	
 	public static void main(String[] args) {
 		
+		System.out.println("String comparison using equals : ");
 		doVerifyStringUsingEquals(strName,strName1);
+		System.out.println("String comparison using equals and object reference : ");
 		doVerifyStringUsingEqualsandObjectReference(strName1, strName3);
+		System.out.println("String comparison using equal Ignore case : ");
 		doVerifyStringUsingEqualsIgnoreCase(strName1, strName2);
 
 	}
